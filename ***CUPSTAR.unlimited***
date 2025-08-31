@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Cupstar :: The Official Collection</title>
+    <style type="text/css">
+        body {
+            /* This sets the monogram pattern for the entire page background */
+            background-image: url('CUPSTAR MONOGRAM PATTERN (1).jpg');
+            background-color: #DDDDDD; /* Fallback color */
+        }
+
+        /* This is the new container that will be shaped like a skateboard */
+        #skateboard-container {
+            width: 800px;
+            margin: auto; /* This centers the container on the page */
+            padding: 80px 40px; /* Adds space inside the shape so text doesn't touch the edges */
+
+            /* Sets the griptape background color and texture */
+            background-color: #282828;
+            background-image: url('griptape_texture.jpg');
+
+            /* This is the magic part! The polygon points create the skateboard silhouette. */
+            clip-path: polygon(
+                50% 0%, 75% 1%, 90% 4%, 98% 10%, 
+                100% 15%, 100% 85%, 
+                98% 90%, 90% 96%, 75% 99%, 50% 100%, 
+                25% 99%, 10% 96%, 2% 90%, 
+                0% 85%, 0% 15%, 
+                2% 10%, 10% 4%, 25% 1%
+            );
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="skateboard-container">
+    <table width="100%" border="0" align="center" cellpadding="15" cellspacing="0">
+
+        <tr>
+            <td align="center">
+                <img src="IMG_0200.PNG" alt="Cupstar Logo" width="520">
+                <hr color="#FFD700">
+                <font face="Arial, Helvetica, sans-serif" size="4" color="#FFFFFF">
+                    The Official Collection & Style Guide
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <font face="Arial, Helvetica, sans-serif" size="5" color="#FFD700"><b>AUTOMOTIVE: The Icon</b></font>
+                <br><br>
+                <img src="impala_ss.jpg" alt="1995 Chevrolet Impala SS" width="600">
+                <br><br>
+                <font face="Arial, Helvetica, sans-serif" size="3" color="#FFFFFF">
+                    Inspired by the classics. The 1995 Chevrolet Impala SS represents the power and style at the core of Cupstar.
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td><hr color="#555555"></td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <font face="Arial, Helvetica, sans-serif" size="5" color="#FFD700"><b>CLOTHING & ACCESSORIES</b></font>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <table width="100%" border="0" cellpadding="10">
+                    <tr>
+                        <td width="40%" align="center"><img src="IMG_0351.jpg" alt="Cupstar Star Tee" width="250"></td>
+                        <td width="60%" valign="middle">
+                            <font face="Arial, Helvetica, sans-serif" color="#FFFFFF">
+                                <b>Cupstar Star Tee</b><br>
+                                Our signature orange honeycomb tee featuring the classic Cupstar star logo. Premium texture and an iconic fit for the street.
+                                <br><b>Price: $45.00</b>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <table width="100%" border="0" cellpadding="10">
+                    <tr>
+                        <td width="60%" valign="middle" align="right">
+                             <font face="Arial, Helvetica, sans-serif" color="#FFFFFF">
+                                <b>Cupstar Work Overalls</b><br>
+                                Durable orange work overalls with black straps and a camo chest pocket. Designed for the garage and the grind. Built to last.
+                                <br><b>Price: $90.00</b>
+                            </font>
+                        </td>
+                        <td width="40%" align="center"><img src="IMG_0299.jpg" alt="Cupstar Overalls" width="250"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table width="100%" border="0" cellpadding="10">
+                    <tr>
+                        <td width="40%" align="center"><img src="IMG_0236.JPEG" alt="Cupstar Belt" width="250"></td>
+                        <td width="60%" valign="middle">
+                            <font face="Arial, Helvetica, sans-serif" color="#FFFFFF">
+                                <b>Cupstar Star Buckle Belt</b><br>
+                                The perfect accessory. A black leather belt finished with the iconic yellow star buckle.
+                                <br><b>Price: $30.00</b>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td><hr color="#555555"></td>
+        </tr>
+
+        <tr>
+            <td align="center">
+                <table width="100%" border="0" cellpadding="10">
+                    <tr>
+                        <td width="50%" valign="top" align="center">
+                            <font face="Arial, Helvetica, sans-serif" size="4" color="#FFD700"><b>MUSIC</b></font><br>
+                            <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">
+                               The soundtrack to the streets. We curate mixes and feature artists that provide the fuel for late-night drives and early-morning sessions. Stay tuned for official Cupstar mixtapes.
+                            </font>
+                        </td>
+                        <td width="50%" valign="top" align="center">
+                            <font face="Arial, Helvetica, sans-serif" size="4" color="#FFD700"><b>SKATE & BMX</b></font><br>
+                            <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">
+                               From the pavement to the park, our roots are in skate and BMX culture. We support local riders and build gear that can handle the abuse. It's not just a sport, it's a lifestyle.
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%" valign="top" align="center">
+                            <iframe 
+                                width="350" 
+                                height="225" 
+                                src="https://www.youtube.com/embed/videoseries?list=PLzVBQ13TyaxectZ7kaSRi47QpAI7kU_-" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </td>
+                        <td width="50%" valign="top" align="center">
+                            <img src="BMX.png" alt="BMX rider performing a trick in a skatepark" width="350">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td><hr color="#555555"></td>
+        </tr>
+        
+        <tr>
+            <td align="center">
+                 <img src="PILLARS.jpg" alt="PILLARS" width="750">
+                 <br><br>
+                 <font face="Arial, Helvetica, sans-serif" size="4" color="#FFD700"><b>HOW TO ORDER</b></font>
+                 <br>
+                 <font face="Arial, Helvetica, sans-serif" size="3" color="#FFFFFF">
+                    To purchase any items from the collection, please send an email with the item name and your shipping address to:<br><br>
+                    <b><a href="mailto:sales@cupstar.com">SALES@CUPSTAR.COM</a></b>
+                    <br><br>
+                    We will get back to you with an invoice and payment details.
+                 </font>
+            </td>
+        </tr>
+        
+        <tr>
+            <td align="center">
+                <hr color="#555555">
+                <font face="Courier New, Courier, monospace" size="2" color="#AAAAAA">
+                    &copy; 2025 Cupstar Industries - Nashville, TN
+                </font>
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+</body>
+</html>
